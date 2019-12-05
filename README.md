@@ -16,3 +16,9 @@ high level subjects, for example -
 
 We'll fgo with that and see how it works perhaps but certainly some
 feedback would be helpful...
+
+### Style Guidelines
+
+One thought was to leverage something like math.sci.net as a style guide,
+so that this desont' become  a "thumbs up" or "thumbs down", more gathering
+of thoughts
