@@ -1,9 +1,0 @@
-## Teaching Meaningful Explanations
-
-Paper by Codella, Hind, Ramamurthy, Campbell, Dhurandhar, Varshney, Wei, and Mojsilovic
-IBM Research
-
-A paper proposing an approach to generate explanations.  This papers centers around assigned labels
-and features.  A joint model is produced (via learning) to tailor labels and explanations from the
-input data.
-
