@@ -21,16 +21,18 @@ They observe that only using the notion of *n* least-hit branches
 can fail to work across applications, so they define a cut-off based on
 rarity. Essentially, they find the branch with least hits and define 
 the cutoff as the next power of 2 greater than that branch's number
-of hits. 
+of hits. Using this, they find all the rare branches and attempt to
+target them.
 
 They define the notion of a mutation tuple and keep track of mutations
 that lead to target branches in the code. In particular, they focus on
 deterministic mutations, insert, updates, and deletes.
 They define a "mutation mask"
 function that determines whether the input generated from a given mutation
-on a location will likely reach a target rare branch. Using this, they can determine
-whether or not various mutations will likely continue to reach a target
-and thus whether to allow mutations to occur and test them as new inputs.
+on a location will likely reach a target branch. Using this notion
+and the set of rare branches, they take aim at the rare branches
+in an attempt to increase the likelihood that the rare branches are
+reached as mutants are added to the input queue.
 
 They discuss whether their definition of mutation mask is actually any good
 and also why their approach may not work on other targets.
