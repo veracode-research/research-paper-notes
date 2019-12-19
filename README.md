@@ -6,19 +6,25 @@ and discussion.
 
 ### Issues to be Resolved
 
-Organizing my subjects, etc, could be tricky here so let's try to maintain
+Organizing by subject could be tricky here so let's try to maintain
 some flexiblity and create subdirectories.  Currently, I'm thinking
 high level subjects, for example -
-* Securtiy
+
+* Security
 * Misc.
 * Machine Learning
 * Languages
 
-We'll fgo with that and see how it works perhaps but certainly some
+We'll go with that and see how it works perhaps but certainly some
 feedback would be helpful...
 
 ### Style Guidelines
 
-One thought was to leverage something like math.sci.net as a style guide,
-so that this desont' become  a "thumbs up" or "thumbs down", more gathering
-of thoughts
+One thought was to leverage something like
+[Mathematical Reviews/MathSciNet](http://www.ams.org/publications/math-reviews/math-reviews)
+as a style guide, so that this doesn't become  a "thumbs up" or
+"thumbs down", but rather a distillation of the paper contents. A
+useful reference for understanding the MR approach may be found in
+their [Guide for Reviewers](https://mathscinet.ams.org/mresubs/guide-reviewers.html).
+It may be useful for us to follow a similar path.
+
