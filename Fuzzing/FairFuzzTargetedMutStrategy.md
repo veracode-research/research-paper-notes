@@ -26,11 +26,13 @@ target them.
 
 They define the notion of a mutation tuple and keep track of mutations
 that lead to target branches in the code. In particular, they focus on
-deterministic mutations, insert, updates, and deletes.
-They define a "mutation mask"
-function that determines whether the input generated from a given mutation
-on a location will likely reach a target branch. Using this notion
-and the set of rare branches, they take aim at the rare branches
+*deterministic* mutations (insert, updates, and deletes), so they know what
+is being changed and how. This helps them in finding relations between bytes 
+of the input data and branches depending on those bytes. Further, they make 
+it easy to undo a series of mutations.
+They define a "mutation mask" function that determines whether the input generated from
+a given mutation on a location will likely reach a target branch. Using this notion
+notion and the set of rare branches, they take aim at the rare branches
 in an attempt to increase the likelihood that the rare branches are
 reached as mutants are added to the input queue.
 
@@ -57,6 +59,8 @@ analysis, they use *branch coverage* despite the order dependent nature
 of the path coverage in AFL. I would have been interested in also understanding
 the path probabilities as a point of comparison. They also include 
 some discussion about the various findings for each of the 9 applications they
-put under test.
+put under test. Further, understand path probabilities over time could
+be interesting.
+
 
 
